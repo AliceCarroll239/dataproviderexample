@@ -15,11 +15,11 @@ class DataProviderClass {
         when (method.name) {
             "test1" -> {
                 val array = arrayOfNulls<Test1SampleData>(resultAsList.test1SampleData.size)
-                result = (ArrayList(resultAsList.test1SampleData).toArray(array)) as Array<Any>
+                result = (resultAsList.test1SampleData).toArray(array) as Array<Any>
             }
             "test2" -> {
                 val array = arrayOfNulls<Test2SampleData>(resultAsList.test2SampleData.size)
-                result = (ArrayList(resultAsList.test2SampleData).toArray(array)) as Array<Any>
+                result = (resultAsList.test2SampleData).toArray(array) as Array<Any>
             }
         }
         return result

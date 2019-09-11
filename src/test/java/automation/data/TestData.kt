@@ -4,9 +4,9 @@ import com.google.gson.annotations.SerializedName
 
 data class TestData(
         @SerializedName("test1SampleData")
-        val test1SampleData: List<Test1SampleData>,
+        val test1SampleData: ArrayList<Test1SampleData>,
         @SerializedName("test2SampleData")
-        val test2SampleData: List<Test2SampleData>
+        val test2SampleData: ArrayList<Test2SampleData>
 )
 
 data class Test1SampleData(
