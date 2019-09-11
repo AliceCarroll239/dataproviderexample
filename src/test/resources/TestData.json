@@ -1,0 +1,28 @@
+{
+  "test1SampleData": [
+    {
+      "stringParam1": "sp11",
+      "stringParam2": "sp21",
+      "booleanParam1": true,
+      "booleanParam2": false
+    },
+    {
+      "stringParam1": "sp12",
+      "stringParam2": "sp22",
+      "booleanParam1": true,
+      "booleanParam2": false
+    }
+  ],
+  "test2SampleData": [
+    {
+      "stringParam2": "sp21",
+      "intParam2": 21,
+      "booleanParam2": false
+    },
+    {
+      "stringParam2": "sp22",
+      "intParam2": 22,
+      "booleanParam2": true
+    }
+  ]
+}
