@@ -1,0 +1,10 @@
+{
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "^io.appium:java-client"
+          ],
+          "groupName": "java appium"
+        }
+      ]
+}
